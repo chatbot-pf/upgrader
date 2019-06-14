@@ -234,7 +234,7 @@ class Upgrader {
   }
 
   String message() {
-    return '업데이트를 하면 더 똑똑한 람희와 이야기할 수 있대요오(속닥속닥)! \n새버전: ${currentAppStoreVersion()}\n현재: ${currentInstalledVersion()}.';
+    return '업데이트를 하면 더 똑똑한 람희와 이야기할 수 있대요오(속닥속닥)! \n\n현재: ${currentInstalledVersion()}\n새버전: ${currentAppStoreVersion()}';
   }
 
   void checkVersion({@required BuildContext context}) {
